@@ -1,0 +1,12 @@
+---   ### This playbook is to delete security group
+
+
+- hosts: tag_Name_Master-1
+  connection: local
+  gather_facts: no
+#  user: ubuntu
+  vars_files:
+    - group_vars/all
+  roles:
+    - create_users
+

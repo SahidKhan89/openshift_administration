@@ -1,0 +1,4 @@
+---
+
+- name: create user
+  include: create_users.yaml

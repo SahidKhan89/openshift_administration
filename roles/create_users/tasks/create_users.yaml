@@ -1,0 +1,9 @@
+---
+
+# Create Users
+
+- name: Create User
+  shell: oc create user sahid
+
+
+
