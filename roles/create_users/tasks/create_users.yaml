@@ -8,5 +8,9 @@
 - name: Create Password
   shell: htpasswd /etc/origin/master/htpasswd sahid {{ oc_user_pw }}
 
+- name: Grant Sahid User Admin Rights
+  shell: oc adm policy add-cluster-role-to-user cluster-admin sahid
+
+
 
 
