@@ -1,0 +1,4 @@
+---
+
+- name: create namespace
+  include: create_namespace.yaml

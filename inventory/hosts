@@ -1,2 +1,5 @@
 [local]
 localhost ansible_connection=local
+
+[tag_Name_Master_1]
+10.0.1.252 

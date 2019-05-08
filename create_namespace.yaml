@@ -5,12 +5,8 @@
 #  connection: local
   gather_facts: no
   user: ec2-user
-  vars_prompt:
-    - name: oc_user_pw
-      prompt: "Enter OpenShift PW"
-      private: no
   vars_files:
     - group_vars/all
   roles:
-    - create_users
+    - create_namespace
 
