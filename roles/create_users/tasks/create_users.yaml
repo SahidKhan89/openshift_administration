@@ -5,5 +5,8 @@
 - name: Create User
   shell: oc create user sahid
 
+- name: Create Password
+  shell: htpasswd /etc/origin/master/htpasswd sahid {{ oc_user_pw }}
+
 
 
