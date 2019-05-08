@@ -2,7 +2,7 @@
 
 
 - hosts: tag_Name_Master_1
-  connection: local
+#  connection: local
   gather_facts: no
 #  user: ubuntu
   vars_files:
